@@ -15,17 +15,17 @@ public class CustomListView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom_list_view);
         ListView listView = findViewById(R.id.clistview);
-        Person jady = new Person("Jady","22-1-2000","Male");
-        Person freed = new Person("Jady","22-1-2000","Male");
-        Person jhon = new Person("Jady","22-1-2000","Male");
-        Person balke = new Person("Jady","22-1-2000","Male");
-        Person michale = new Person("Jady","22-1-2000","Male");
-        Person jacy = new Person("Jady","22-1-2000","Male");
-        Person mialan = new Person("Jady","22-1-2000","Male");
-        Person steve = new Person("Jady","22-1-2000","Male");
-        Person july = new Person("Jady","22-1-2000","Male");
-        Person karen = new Person("Jady","22-1-2000","Male");
-        Person james = new Person("Jady","22-1-2000","Male");
+        Person jady = new Person("Jady","10-1-2000","Male");
+        Person freed = new Person("freed","14-1-2000","Male");
+        Person jhon = new Person("jhon","10-1-2000","Male");
+        Person balke = new Person("blake","15-1-2000","female");
+        Person michale = new Person("michale","22-1-2000","Male");
+        Person jacy = new Person("jacy","19-1-2000","female");
+        Person mialan = new Person("mialan","02-1-2000","Male");
+        Person steve = new Person("steve","05-1-2000","Male");
+        Person july = new Person("July","08-1-2000","female");
+        Person karen = new Person("karen","10-1-2000","Male");
+        Person james = new Person("James","13-1-2000","female");
 
 
         ArrayList<Person> personArrayList = new ArrayList<>();
